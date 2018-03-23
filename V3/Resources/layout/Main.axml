@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <Button
+      android:text="Автоматический режим"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/button1" />
+  <Button
+      android:text="Ручной Режим(Выключен)"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/button2" />
+  <TextView
+      android:text="Инструкция:"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1" />
+  <TextView
+      android:text="1)Автоматический режим-Нажимаете старт и программа всё сделает за вас. Нажимаете стоп и приложение останавливает воспроизведение аудио"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView2" />
+  <TextView
+      android:text="2)Ручной режим-Всё под вашим контролем"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView3" />
+</LinearLayout>

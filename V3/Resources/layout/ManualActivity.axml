@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <Button
+      android:text="Завлекалка"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM1" />
+  <Button
+      android:text="Раздумье шляпы"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM2" />
+  <Button
+      android:text="Сколько лет/куда хочешь"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM3" />
+  <Button
+      android:text="Вышка-технарь"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM4" />
+  <Button
+      android:text="Вышка-Гуманитарий"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM5" />
+  <Button
+      android:text="Колледж-технарь"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM6" />
+  <Button
+      android:text="Коледж-гуманитарий"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM7" />
+  <Button
+      android:text="!Возврат!"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonM8" />
+</LinearLayout>
